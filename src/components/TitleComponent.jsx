@@ -1,9 +1,7 @@
-import BackgroundPattern from './BackgroundPattern'
-
 const TitleComponent = () => {
   return (
-    <div className="relative min-h-screen flex items-center justify-center px-4 py-6">
-      <div className="relative bg-white/90 backdrop-blur-sm  max-w-3xl p-8">
+    <div className="relative pt-16 pb-8 px-4">
+      <div className="relative bg-white/90 backdrop-blur-sm max-w-3xl p-8 mx-auto">
         <div className="text-center">
           <h3 className="text-red-600 mb-2 font-kannada font-bold text-xl sm:text-2xl leading-tight">
             ಕಲ್ಯಾಣಕರ್‌ ಕುಟುಂಬದವರಿಂದ
@@ -15,12 +13,12 @@ const TitleComponent = () => {
           <div className="h-px w-32 bg-red-300 mx-auto my-6" />
           
           <div className="flex items-center justify-center gap-2 sm:gap-4 mb-6">
-  <h1 className="text-4xl sm:text-6xl font-bold text-red-800 font-kannada">ಅಕ್ಷಯ</h1>
-  <div className="flex items-center justify-center">
-    <span className="text-3xl sm:text-5xl font-bold text-red-800 -translate-y-2">❤️</span>
-  </div>
-  <h1 className="text-4xl sm:text-6xl font-bold text-red-800 font-kannada">ಅನುಷ</h1>
-</div>
+            <h1 className="text-4xl sm:text-6xl font-bold text-red-800 font-kannada">ಅಕ್ಷಯ</h1>
+            <div className="flex items-center justify-center">
+              <span className="text-3xl sm:text-5xl font-bold text-red-800 -translate-y-2">❤️</span>
+            </div>
+            <h1 className="text-4xl sm:text-6xl font-bold text-red-800 font-kannada">ಅನುಷ</h1>
+          </div>
 
           <div className="h-px w-32 bg-red-300 mx-auto mb-6" />
 
@@ -53,7 +51,6 @@ const TitleComponent = () => {
               </p>
             </div>
           </div>
-         
         </div>
       </div>
     </div>
