@@ -3,10 +3,10 @@ const TitleComponent = () => {
     <div className="relative pt-16 pb-8 px-4">
       <div className="relative bg-white/90 backdrop-blur-sm max-w-3xl p-8 mx-auto">
         <div className="text-center">
-          <h3 className="text-red-600 mb-2 font-kannada font-bold text-xl sm:text-2xl leading-tight">
+          <h3 className="text-blue-900 mb-2 font-kannada font-bold text-xl sm:text-2xl leading-tight">
             ಕಲ್ಯಾಣಕರ್‌ ಕುಟುಂಬದವರಿಂದ
           </h3>
-          <span className="text-red-600 text-2xl sm:text-3xl font-bold font-kannada leading-snug">
+          <span className="text-blue-900 text-2xl sm:text-3xl font-bold font-kannada leading-snug">
             ಮದುವೆಯ ಮಮತೆಯ ಕರೆಯೋಲೆ
           </span>
 
@@ -14,8 +14,8 @@ const TitleComponent = () => {
           
           <div className="flex items-center justify-center gap-2 sm:gap-4 mb-6">
             <h1 className="text-4xl sm:text-6xl font-bold text-red-800 font-kannada">ಅಕ್ಷಯ</h1>
-            <div className="flex items-center justify-center">
-              <span className="text-3xl sm:text-5xl font-bold text-red-800 -translate-y-2">❤️</span>
+            <div className="flex items-center justify-center" style={{ transform: "rotate(20deg)" }}>
+              <span className="text-xl sm:text-3xl font-bold text-pink-700 font-kannada stroke-orange-700 stroke-2">ಜೊತೆ</span>
             </div>
             <h1 className="text-4xl sm:text-6xl font-bold text-red-800 font-kannada">ಅನುಷ</h1>
           </div>

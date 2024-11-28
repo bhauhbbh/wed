@@ -2,7 +2,7 @@ import { FaMapMarkerAlt } from 'react-icons/fa';
 
 const DirectionsComponent = () => {
   return (
-    <div className="text-center w-full max-w-6xl mx-auto px-4 py-10">
+    <div className="text-center w-full max-w-6xl mx-auto px-4 py-2">
       {/* Directions Button */}
       <div className="mt-8">
         <a
@@ -19,7 +19,7 @@ const DirectionsComponent = () => {
       {/* Embedded Google Map */}
       <div className="mt-8">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11102.25115005065!2d75.07922279944555!3d14.237201034879151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbbf3a24b643173%3A0x293d4dcef4b84503!2sDhananjaneya%20Swamy%20Temple!5e1!3m2!1sen!2sin!4v1732784492924!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11102.25115005065!2d75.07922279944555!3d14.237201034879151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbbf3a24b643173%3A0x293d4dcef4b84503!2sDhananjaneya%20Swamy%20Temple!5e0!3m2!1sen!2sin!4v1732784492924!5m2!1sen!2sin"
           width="100%"
           height="300"
           allowFullScreen=""
