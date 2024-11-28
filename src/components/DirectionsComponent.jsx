@@ -2,7 +2,7 @@ import { FaMapMarkerAlt } from 'react-icons/fa';
 
 const DirectionsComponent = () => {
   return (
-    <div className="text-center w-full max-w-6xl mx-auto px-4 py-2">
+    <div className="text-center w-full max-w-6xl mx-auto px-4 py-2 mb-6">
       {/* Directions Button */}
       <div className="mt-8">
         <a
