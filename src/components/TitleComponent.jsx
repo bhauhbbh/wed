@@ -47,7 +47,7 @@ const TitleComponent = () => {
               </p>
               <p className="text-lg sm:text-xl text-red-800 font-kannato">
                 ಧನಾಂಜನೇಯ ಸಭಾಭವನ, <br/> 
-                ಹೊಳೆಕೊಪ್ಪ , ಸೊರಬ ತಾ||, ಶಿವಮೊಗ್ಗ ಜಿ||
+                ಹೊಳೆಕೊಪ್ಪ , ಸೊರಬ (ತಾ), ಶಿವಮೊಗ್ಗ (ಜಿ)
               </p>
             </div>
           </div>
