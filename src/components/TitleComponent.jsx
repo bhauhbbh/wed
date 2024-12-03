@@ -41,15 +41,24 @@ const TitleComponent = () => {
               </p>
             </div>
 
-            <div className="relative">
-              <p className="text-xl sm:text-2xl text-red-700 underline font-semibold font-kannato">
-                ವಿವಾಹ ಸ್ಥಳ:
-              </p>
-              <p className="text-lg sm:text-xl text-red-800 font-kannato">
-                ಧನಾಂಜನೇಯ ಸಭಾಭವನ, <br/> 
-                ಹೊಳೆಕೊಪ್ಪ , ಸೊರಬ (ತಾ), ಶಿವಮೊಗ್ಗ (ಜಿ)
-              </p>
-            </div>
+            <div className="relative flex flex-col items-center">
+  <div className="flex items-center space-x-2">
+    <p className="text-2xl sm:text-3xl text-red-700 underline font-semibold font-style mb-2">
+      Reception
+    </p>
+    <img 
+      src="/party.gif" 
+      alt="Party Icon" 
+      className="w-8 h-8 sm:w-10 sm:h-10"
+    />
+  </div>
+  <p className="text-lg sm:text-xl text-red-800 font-kannato text-center">
+    9 ಡಿಸೆಂಬರ್, 2024 <br />
+    ಆರತಕ್ಷತೆ ಸ್ಥಳ : ವರನ ಸ್ವಗೃಹ, <br />
+    ಕಮಲಾಪುರ, ವಿಜಯನಗರ (ಜಿ) <br />
+  </p>
+</div>
+
           </div>
         </div>
       </div>

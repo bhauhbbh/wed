@@ -10,6 +10,7 @@ export default {
         kannada: ['Anek Kannada', 'sans-serif'],
         english: ['Cormorant Garamond', 'serif'],
         kannato: ['Noto Serif Kannada', 'serif'],
+        style: ['Charm', 'cursive'],
       }
     },
   },
