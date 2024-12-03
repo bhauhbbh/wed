@@ -54,7 +54,8 @@ const TitleComponent = () => {
   </div>
   <p className="text-lg sm:text-xl text-red-800 font-kannato text-center">
     9 ಡಿಸೆಂಬರ್, 2024 <br />
-    ಆರತಕ್ಷತೆ ಸ್ಥಳ : ವರನ ಸ್ವಗೃಹ, <br />
+    ಸತ್ಯನಾರಾಯಣ ಪೂಜೆ : ವರನ ಸ್ವಗೃಹ, <br />
+    ಆರತಕ್ಷತೆ ಸ್ಥಳ : ಈಶ್ವರ ದೇವಸ್ಥಾನ  <br />
     ಕಮಲಾಪುರ, ವಿಜಯನಗರ (ಜಿ) <br />
   </p>
 </div>
